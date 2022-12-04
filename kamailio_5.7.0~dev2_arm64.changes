@@ -1,0 +1,210 @@
+Format: 1.8
+Date: Mon, 28 Nov 2022 11:54:03 +0100
+Source: kamailio
+Binary: kamailio kamailio-autheph-modules kamailio-berkeley-bin kamailio-berkeley-modules kamailio-cnxcc-modules kamailio-cpl-modules kamailio-dbg kamailio-erlang-modules kamailio-extra-modules kamailio-geoip-modules kamailio-geoip2-modules kamailio-ims-modules kamailio-json-modules kamailio-kazoo-modules kamailio-ldap-modules kamailio-lua-modules kamailio-lwsc-modules kamailio-memcached-modules kamailio-mongodb-modules kamailio-mono-modules kamailio-mqtt-modules kamailio-mysql-modules kamailio-nats-modules kamailio-nth kamailio-outbound-modules kamailio-perl-modules kamailio-phonenum-modules kamailio-postgres-modules kamailio-presence-modules kamailio-python3-modules kamailio-rabbitmq-modules kamailio-radius-modules kamailio-redis-modules kamailio-ruby-modules kamailio-sctp-modules kamailio-secsipid-modules kamailio-snmpstats-modules kamailio-sqlite-modules kamailio-systemd-modules kamailio-tls-modules kamailio-unixodbc-modules kamailio-utils-modules
+ kamailio-websocket-modules kamailio-xml-modules
+ kamailio-xmpp-modules
+Built-For-Profiles: noudeb
+Architecture: source arm64
+Version: 5.7.0~dev2
+Distribution: unstable
+Urgency: medium
+Maintainer: Kamailio Admin Group <kadmin.hq@lists.kamailio.org>
+Changed-By: Victor Seva <vseva@debian.org>
+Description:
+ kamailio   - very fast, dynamic and configurable SIP server
+ kamailio-autheph-modules - authentication using ephemeral credentials for the Kamailio SIP s
+ kamailio-berkeley-bin - Berkeley database module for Kamailio - helper program
+ kamailio-berkeley-modules - Berkeley database module for the Kamailio SIP server
+ kamailio-cnxcc-modules - cnxcc modules for the Kamailio SIP server
+ kamailio-cpl-modules - CPL module (CPL interpreter engine) for the Kamailio SIP server
+ kamailio-dbg - very fast and configurable SIP server [debug symbols]
+ kamailio-erlang-modules - Erlang modules for the Kamailio SIP server
+ kamailio-extra-modules - Extra modules for the Kamailio SIP Server
+ kamailio-geoip-modules - The geoip module for the Kamailio SIP Server
+ kamailio-geoip2-modules - The geoip2 module for the Kamailio SIP Server
+ kamailio-ims-modules - IMS module for the Kamailio SIP server
+ kamailio-json-modules - Json parser and Json-RPC modules for the Kamailio SIP server
+ kamailio-kazoo-modules - kazoo modules for the Kamailio SIP server
+ kamailio-ldap-modules - LDAP modules for the Kamailio SIP server
+ kamailio-lua-modules - The app_lua module for Kamailio Lua support
+ kamailio-lwsc-modules - Libwebsockets module for the Kamailio SIP server
+ kamailio-memcached-modules - interface to the memcached server, for the Kamailio SIP server
+ kamailio-mongodb-modules - mongodb modules for the Kamailio SIP server
+ kamailio-mono-modules - The app_mono module for the Kamailio SIP server
+ kamailio-mqtt-modules - MQTT modules for the Kamailio SIP Server
+ kamailio-mysql-modules - MySQL database connectivity module for Kamailio
+ kamailio-nats-modules - Nats module for the Kamailio SIP server
+ kamailio-nth - Kamailio SIP server - package for "nice to have" utilities
+ kamailio-outbound-modules - SIP Outbound module for the Kamailio SIP server
+ kamailio-perl-modules - Perl extensions and database driver for the Kamailio SIP server
+ kamailio-phonenum-modules - phonenum modules for the Kamailio SIP server
+ kamailio-postgres-modules - PostgreSQL database connectivity module for the Kamailio SIP serv
+ kamailio-presence-modules - SIP presence modules for Kamailio
+ kamailio-python3-modules - The app_python3 module for the Kamailio SIP server
+ kamailio-rabbitmq-modules - RabbitMQ and AMQP integration modules for the Kamailio SIP server
+ kamailio-radius-modules - RADIUS modules for the Kamailio SIP server
+ kamailio-redis-modules - Redis database connectivity module for the Kamailio SIP server
+ kamailio-ruby-modules - The app_ruby module for Kamailio Ruby support
+ kamailio-sctp-modules - SCTP SIP transport module for the Kamailio SIP server
+ kamailio-secsipid-modules - contains the secsipid module
+ kamailio-snmpstats-modules - SNMP AgentX subagent module for the Kamailio SIP server
+ kamailio-sqlite-modules - SQLite database connectivity module for the Kamailio SIP server
+ kamailio-systemd-modules - systemd logging modules for the Kamailio SIP server
+ kamailio-tls-modules - TLS support for the Kamailio SIP server (authentication, transpor
+ kamailio-unixodbc-modules - unixODBC database connectivity module for the Kamailio SIP server
+ kamailio-utils-modules - Utility functions for the Kamailio SIP server
+ kamailio-websocket-modules - WebSocket module for the Kamailio SIP server
+ kamailio-xml-modules - XML based extensions for Kamailio's Management Interface
+ kamailio-xmpp-modules - XMPP gateway module for the Kamailio SIP server
+Changes:
+ kamailio (5.7.0~dev2) unstable; urgency=medium
+ .
+   * version set 5.7.0~dev2
+Checksums-Sha1:
+ b976c5217b2a5dfefdc2e079089bd08bdd7b226d 5025 kamailio_5.7.0~dev2.dsc
+ 62d78872c0e0f27b72d017a5a94b943ddd33ba72 23678068 kamailio_5.7.0~dev2.tar.xz
+ 7948ab85f01fe94ef9b785775dfa47f7a54ea881 140456 kamailio-autheph-modules_5.7.0~dev2_arm64.deb
+ 8ab60937c9b0810d81549cb0df2bf543d35647bf 118788 kamailio-berkeley-bin_5.7.0~dev2_arm64.deb
+ 1fcd112d66bfe6c60037d29aedfcda361ac55909 208998 kamailio-berkeley-modules_5.7.0~dev2_arm64.deb
+ 2a768b22a2ecafeaaa5af86f4683f71adf0be96a 181716 kamailio-cnxcc-modules_5.7.0~dev2_arm64.deb
+ 4fca4690a02b10bda75400d6b0158a9a8e43e67c 255428 kamailio-cpl-modules_5.7.0~dev2_arm64.deb
+ 72e21b9053dbdb6ccd3837e8226833fa82d86e9b 31048316 kamailio-dbg_5.7.0~dev2_arm64.deb
+ 64a9006f6c81d257063650b75f67e44f4b348385 299272 kamailio-erlang-modules_5.7.0~dev2_arm64.deb
+ bc8232e9f30a414ebbb6d1791fdaff021088fef2 327800 kamailio-extra-modules_5.7.0~dev2_arm64.deb
+ e1c6f73bae6026e8a0a8f335ef671ed077509602 122344 kamailio-geoip-modules_5.7.0~dev2_arm64.deb
+ 784e42a0631cd1bfb965965236e59b8770f715a5 126050 kamailio-geoip2-modules_5.7.0~dev2_arm64.deb
+ b5e99dacec73e5a1f0f1a44f47c1fa9a859ea1df 1410866 kamailio-ims-modules_5.7.0~dev2_arm64.deb
+ 47e90f89f22709424f2c4c7efea5e4f18444ea36 165670 kamailio-json-modules_5.7.0~dev2_arm64.deb
+ d03e3e643c35c1e55b2cd2d9a41fcc2c74be422b 244006 kamailio-kazoo-modules_5.7.0~dev2_arm64.deb
+ 33e96f854aa341c1c3e5f47414294402daa2840a 209300 kamailio-ldap-modules_5.7.0~dev2_arm64.deb
+ 4e04dc238beb17a1789218d7842fdce541581a35 251344 kamailio-lua-modules_5.7.0~dev2_arm64.deb
+ 685603aeb4412bac55cdb6dcd0630626361cd9da 132174 kamailio-lwsc-modules_5.7.0~dev2_arm64.deb
+ a563d6c673f321bb6aa3ed12ab0e6af8af89a14e 130174 kamailio-memcached-modules_5.7.0~dev2_arm64.deb
+ b79f6d27002a06e842ceaed270a85bbaa1b7739f 160466 kamailio-mongodb-modules_5.7.0~dev2_arm64.deb
+ 8c33a4796ae03b7b0073c0614ea47f5f83d3d937 132536 kamailio-mono-modules_5.7.0~dev2_arm64.deb
+ da764f91595de4d2acba4352d9d01fc38e90a0dd 141114 kamailio-mqtt-modules_5.7.0~dev2_arm64.deb
+ ff347831962fe407464ee3c47af5516cc6bee764 179692 kamailio-mysql-modules_5.7.0~dev2_arm64.deb
+ 087b82be3028899f963dd4a334b08990010c79e5 137992 kamailio-nats-modules_5.7.0~dev2_arm64.deb
+ 820534e9d4973206cf9af3f1e08ec7e854cd4c07 110310 kamailio-nth_5.7.0~dev2_arm64.deb
+ bd783869068bae4e203f53bb1b5859db0702a6bc 127120 kamailio-outbound-modules_5.7.0~dev2_arm64.deb
+ 68e507dce999cea368a3c75552090dc935cefe28 186922 kamailio-perl-modules_5.7.0~dev2_arm64.deb
+ 7fdc5af0948b5957fcf66937b2f2c4692d5409ac 125652 kamailio-phonenum-modules_5.7.0~dev2_arm64.deb
+ 5a1e1c89124b7b69be09367a5150ccfeeabe0bf2 204730 kamailio-postgres-modules_5.7.0~dev2_arm64.deb
+ 41c57e911e9a0780faef3535e69aea183129c2c6 823204 kamailio-presence-modules_5.7.0~dev2_arm64.deb
+ dfedcfab00d826a33517cfed1eafc9dda6912d0a 166988 kamailio-python3-modules_5.7.0~dev2_arm64.deb
+ d438cf74db3588712a70c9be48a11abf30a7b7e8 131208 kamailio-rabbitmq-modules_5.7.0~dev2_arm64.deb
+ 618815d2044451232733bb21935eb371d02bc587 186544 kamailio-radius-modules_5.7.0~dev2_arm64.deb
+ 27ab0d6c358adbd9ad9bfa8d3effd32f5c1769f3 319120 kamailio-redis-modules_5.7.0~dev2_arm64.deb
+ 5d20f005ee37abf5f46d79b0d7363b0f4dfd27e0 172042 kamailio-ruby-modules_5.7.0~dev2_arm64.deb
+ dfb1131ce57d151090112c272418c7a81b430617 157924 kamailio-sctp-modules_5.7.0~dev2_arm64.deb
+ 2c6f84fb985fccd74aeaab4ef3856dccb7aa3f2e 131234 kamailio-secsipid-modules_5.7.0~dev2_arm64.deb
+ f4466c554b6980f836c65b609dfe571d0d005a51 195496 kamailio-snmpstats-modules_5.7.0~dev2_arm64.deb
+ d979cc9d86328932bb7e51b900d6089033ab8a25 136990 kamailio-sqlite-modules_5.7.0~dev2_arm64.deb
+ 3dc8b02cf0fb4749c93a9d6484a36bb3f42eb57f 120940 kamailio-systemd-modules_5.7.0~dev2_arm64.deb
+ 43bb90002a62606e46b6ace0359d31bc24d94d15 319192 kamailio-tls-modules_5.7.0~dev2_arm64.deb
+ d4c25a8124e162bb2c3e5bf96f449c0d34026e0b 145740 kamailio-unixodbc-modules_5.7.0~dev2_arm64.deb
+ 8cfaaf60e8e07f545b751e9eea23995d6ca85079 295490 kamailio-utils-modules_5.7.0~dev2_arm64.deb
+ 18fcfe6ab45a8f756dae86cb7407f298bb23e5dd 166250 kamailio-websocket-modules_5.7.0~dev2_arm64.deb
+ fd3e4a51b2778fa6130f0a5ad1e47e8ae6062fce 249234 kamailio-xml-modules_5.7.0~dev2_arm64.deb
+ 5078f28634158d0fe365c94f4fe3b2cb5fa8a488 161146 kamailio-xmpp-modules_5.7.0~dev2_arm64.deb
+ dd0f98970f6fc75f3cb15b12a75f75276d1922e9 27397 kamailio_5.7.0~dev2_arm64.buildinfo
+ 53e3facf61a85144f34edaa97d93ca7ff9389047 7328368 kamailio_5.7.0~dev2_arm64.deb
+Checksums-Sha256:
+ 7bdcbdc6220c4b4975251f94ef7e0284f49d1c73973eb4d3628a2771d2567da3 5025 kamailio_5.7.0~dev2.dsc
+ 30cef1a37419ade755c5e8489c173d8d0b06ecfb3d4ac678e4d8a2cfb9734a49 23678068 kamailio_5.7.0~dev2.tar.xz
+ 20827bb48a52c2f959496d2738ca7dbc384370911a81b81555a9010dd69ab8d3 140456 kamailio-autheph-modules_5.7.0~dev2_arm64.deb
+ 50fa257184a7660eccf5c7e999fbb74fd19860438f16c3c1ca6de6b99542db2b 118788 kamailio-berkeley-bin_5.7.0~dev2_arm64.deb
+ df4cf6e4a073666cafa13b44c8b0f8ee51ca5069deda76731a98e61090c0ff2e 208998 kamailio-berkeley-modules_5.7.0~dev2_arm64.deb
+ 1bacfd82b7ddac3f5d3611f99c375b4ff8d45c079189962c9010b8b128a19b1b 181716 kamailio-cnxcc-modules_5.7.0~dev2_arm64.deb
+ 3ad9c6f83fab3a416fad135b825bf9fb29e7e9c283a62cfb79e90a0cb84a08c8 255428 kamailio-cpl-modules_5.7.0~dev2_arm64.deb
+ 6d99da2421404aaee98a1be8f5b6bb65dcce3e5fb2046279195a6e43d9a63362 31048316 kamailio-dbg_5.7.0~dev2_arm64.deb
+ 93945a1b9239b9b58f01debbb09b4d677923018257c0186e7650de9617cd8983 299272 kamailio-erlang-modules_5.7.0~dev2_arm64.deb
+ 30183719c3c74c0afeccac1255c523e1fa508e697ab4ab7fba4fa15adb9c4fba 327800 kamailio-extra-modules_5.7.0~dev2_arm64.deb
+ 2addd805788f7a6b08da75577735efed62e9bb1383c904aa16d8f6777bc78aa8 122344 kamailio-geoip-modules_5.7.0~dev2_arm64.deb
+ d925a14519e4fab5f9f5f8d858046fe6e86f05d2a8e700cdcba7c31259039758 126050 kamailio-geoip2-modules_5.7.0~dev2_arm64.deb
+ 7d91ee7d8856d6051942ffaf724f6a60425977550b3298a503599dd1dee54318 1410866 kamailio-ims-modules_5.7.0~dev2_arm64.deb
+ d02be985d2537304c0ec66d458a190e08afe138f6cec92cdcb5991d4eeeb57db 165670 kamailio-json-modules_5.7.0~dev2_arm64.deb
+ f5b74237e738b69f9c4f5ec2e1979c565cfc2b5e5d65f2d772d62d32acf8b300 244006 kamailio-kazoo-modules_5.7.0~dev2_arm64.deb
+ 4cb2113b0c6249f8b0dd65d987da3f34e86da543a45bb173cb56bd04c212a39a 209300 kamailio-ldap-modules_5.7.0~dev2_arm64.deb
+ 78dcb8e975d77ea83f80d6d1eb44c0175bd79bcc81c491bbcf9aa17fe5054e1b 251344 kamailio-lua-modules_5.7.0~dev2_arm64.deb
+ b772e67ce26f2cac1b09a00ff3a447c46a927b97650defdd8fe855ed03cdcc12 132174 kamailio-lwsc-modules_5.7.0~dev2_arm64.deb
+ f3971112a87fb8cdd2d7c0a25989f5f0c2d1351c5f02dcdaefd16ad5d88c965d 130174 kamailio-memcached-modules_5.7.0~dev2_arm64.deb
+ 635fb5ffa7ef0a5c5354f1c8d4ac1611d82997ac42e82b129a960192299a6405 160466 kamailio-mongodb-modules_5.7.0~dev2_arm64.deb
+ c406ddd6859297bd179c31287c483dbfc4125446091cf799fc9613f44f7dc7b2 132536 kamailio-mono-modules_5.7.0~dev2_arm64.deb
+ e42b09b2ad19d97df3ae5da29bf0c11b27a7ba517f50612629a1cb04a7d6781c 141114 kamailio-mqtt-modules_5.7.0~dev2_arm64.deb
+ 191da73308506d118a9508a6c3a87ad8a390265e45bd695fbaf783dfa7938799 179692 kamailio-mysql-modules_5.7.0~dev2_arm64.deb
+ dfd85edaa266d464f33b120b72376d805402dd2e599a2cd58546ca16e8ff33eb 137992 kamailio-nats-modules_5.7.0~dev2_arm64.deb
+ 175c39f72799174cbf97bc1e4c21e5fc4e9218f57e295eff2347f54b8c93982d 110310 kamailio-nth_5.7.0~dev2_arm64.deb
+ 0af3d43264a23cd1f2de5fe775376042193c5c3b9d5bc0ea82ed4ff136142a5e 127120 kamailio-outbound-modules_5.7.0~dev2_arm64.deb
+ 5a800c88f350f0156f45e34f6dc7ef8192c189729ac1eff65aac399358f1b585 186922 kamailio-perl-modules_5.7.0~dev2_arm64.deb
+ cc5afedf2b92977d9c3e114254699344417a2955bad2d46a823dcd654851815f 125652 kamailio-phonenum-modules_5.7.0~dev2_arm64.deb
+ 374b05b2120abbf65dbf2533cf66ad8ad3c4eb89ca69d547f68b502383cbbf6f 204730 kamailio-postgres-modules_5.7.0~dev2_arm64.deb
+ a6d6efb7b51368cef1e75bc5322d9ad067acf11a9dc4633d0e8bd0d7fd8331ce 823204 kamailio-presence-modules_5.7.0~dev2_arm64.deb
+ 85ca4341c552c6957ceddbdde91b98128187d6da086f3b9b41ebea14cdc73d8a 166988 kamailio-python3-modules_5.7.0~dev2_arm64.deb
+ ec05d5813611af248baaa709377c1206c57ae653e3ea009c92e3677c4f138eb4 131208 kamailio-rabbitmq-modules_5.7.0~dev2_arm64.deb
+ ed0d2a4abe22abfcd6d0c3fc02f00bd308b05e43941cfda1fd7bb2b32ea29269 186544 kamailio-radius-modules_5.7.0~dev2_arm64.deb
+ 74c31dce45669fabaefeccc134de4f639a0400b3e3e43980353d8ef40ec98436 319120 kamailio-redis-modules_5.7.0~dev2_arm64.deb
+ a25a51f24b4e4dfee8d98829f2dff5d712bd0d18cedd4dc27ebe92c4adb60f14 172042 kamailio-ruby-modules_5.7.0~dev2_arm64.deb
+ 5dbf48529330e4d1dbbc75ea0eb875328f7e26de4a99c0891f3befb4440b3ca3 157924 kamailio-sctp-modules_5.7.0~dev2_arm64.deb
+ 6743b099762ed4d88510af32aa71838351c590c5459247b81a5735e5a9dc8d68 131234 kamailio-secsipid-modules_5.7.0~dev2_arm64.deb
+ 71acb22eb3bc495dfa4243e089a7b676cd865d4d4e72b01c6b53e0d6b8937203 195496 kamailio-snmpstats-modules_5.7.0~dev2_arm64.deb
+ e1162b1a220cd31b9f284d9fa33cd88e9ab35b608c6830ef93bd051b68a42fe6 136990 kamailio-sqlite-modules_5.7.0~dev2_arm64.deb
+ f0ee77e992f7737cca8a21a22825ffa6a7b81be03781c004e532e8516628f0b2 120940 kamailio-systemd-modules_5.7.0~dev2_arm64.deb
+ 775653c9f9f065530d785290d449f77fec956cae1f405a4ceb72a2da45b8f23e 319192 kamailio-tls-modules_5.7.0~dev2_arm64.deb
+ e5a34aa6d586837948fee07b881b8c9a790902b1185c0a2fd60f9fefc0c91f5f 145740 kamailio-unixodbc-modules_5.7.0~dev2_arm64.deb
+ 0665d2ab68b3bddc5589b2952ae2d1c20595a371a0ed92ef3a61f3a3456a0046 295490 kamailio-utils-modules_5.7.0~dev2_arm64.deb
+ 13efff27072ade2b71f5148d89204444a9fa73b2afda428fa6b2bb81ee80eb2f 166250 kamailio-websocket-modules_5.7.0~dev2_arm64.deb
+ 3a63128927ef0341d2f7633f382e76136d6f0563fcf173c78e844dab4ee2145c 249234 kamailio-xml-modules_5.7.0~dev2_arm64.deb
+ e4c97c60d2378072c78e0b9fc8c374074bea1394b731edbe3e17cb394151bf3f 161146 kamailio-xmpp-modules_5.7.0~dev2_arm64.deb
+ 2ef32d9bd6dc5ec74ee32f6d6a59adcf02528ff6cca8014bfa1e7a49465f5e8a 27397 kamailio_5.7.0~dev2_arm64.buildinfo
+ f71d7600aceae5b0bacb6be9ba38cdca8e87439021b022dee8039f60680dd189 7328368 kamailio_5.7.0~dev2_arm64.deb
+Files:
+ 361302408d72a3d6c7699fb79badcb9c 5025 net optional kamailio_5.7.0~dev2.dsc
+ 3f0ab13e996c40ed8e5d035a8a583264 23678068 net optional kamailio_5.7.0~dev2.tar.xz
+ 0095162f48acf1c38b1ae4abb4b341d9 140456 net optional kamailio-autheph-modules_5.7.0~dev2_arm64.deb
+ db4cc97a821bd68f382426cf6638a1e7 118788 net optional kamailio-berkeley-bin_5.7.0~dev2_arm64.deb
+ 511ecd91dc998c40da8a7e28539e35e0 208998 net optional kamailio-berkeley-modules_5.7.0~dev2_arm64.deb
+ f26c3afed1f49f0b7b7493d1c3f22efe 181716 net optional kamailio-cnxcc-modules_5.7.0~dev2_arm64.deb
+ cb71cac035f12279cbacde5f7577301f 255428 net optional kamailio-cpl-modules_5.7.0~dev2_arm64.deb
+ 4d40e3656a9d3afd69f4cdc91adc61fd 31048316 debug extra kamailio-dbg_5.7.0~dev2_arm64.deb
+ 6766ad6489e4f27c51c99f207d51cbee 299272 net optional kamailio-erlang-modules_5.7.0~dev2_arm64.deb
+ b0b8bd8dcac45d3dd75ea99f904b0fff 327800 net optional kamailio-extra-modules_5.7.0~dev2_arm64.deb
+ ee680fa530e054c666d7a7e0e1740b3c 122344 net optional kamailio-geoip-modules_5.7.0~dev2_arm64.deb
+ 13007ddbb58cec6f7c830d4336fe1a16 126050 net optional kamailio-geoip2-modules_5.7.0~dev2_arm64.deb
+ d82e911829e61d3986245afbf1de2184 1410866 net optional kamailio-ims-modules_5.7.0~dev2_arm64.deb
+ f1686a13b19c0ab61a65382434afce9e 165670 net optional kamailio-json-modules_5.7.0~dev2_arm64.deb
+ 633115e43ea07da8f8f8963690aac707 244006 net optional kamailio-kazoo-modules_5.7.0~dev2_arm64.deb
+ 8c91e91c804a705e70b46599b0deae7f 209300 net optional kamailio-ldap-modules_5.7.0~dev2_arm64.deb
+ 156728cb06c49317148ed6997a1bd19e 251344 net optional kamailio-lua-modules_5.7.0~dev2_arm64.deb
+ afb0fcdc0225e311394957770aa15624 132174 net optional kamailio-lwsc-modules_5.7.0~dev2_arm64.deb
+ a2eab6597c98665d2c2804ebc820099c 130174 net optional kamailio-memcached-modules_5.7.0~dev2_arm64.deb
+ a14763ef54fa35f34ec8d2ce22ce89b3 160466 net optional kamailio-mongodb-modules_5.7.0~dev2_arm64.deb
+ d8162015e93b5d224f6dc49974e264c6 132536 net optional kamailio-mono-modules_5.7.0~dev2_arm64.deb
+ e89436753c5d55a251c21d6d38af7283 141114 net optional kamailio-mqtt-modules_5.7.0~dev2_arm64.deb
+ a0b0201de1243aa5957ff21c2f3bab78 179692 net optional kamailio-mysql-modules_5.7.0~dev2_arm64.deb
+ 2abc15061b26df9a5cf4b9fce63cc51a 137992 net optional kamailio-nats-modules_5.7.0~dev2_arm64.deb
+ d2b816d896babc85fcabcec5c6714874 110310 net optional kamailio-nth_5.7.0~dev2_arm64.deb
+ e2294671b0e28bb979b569483c8f3735 127120 net optional kamailio-outbound-modules_5.7.0~dev2_arm64.deb
+ 4ed2164fe1e28cb70889eb2213520741 186922 net optional kamailio-perl-modules_5.7.0~dev2_arm64.deb
+ a7ccbca2466e097af0311f3945b29622 125652 net optional kamailio-phonenum-modules_5.7.0~dev2_arm64.deb
+ 0033c56f09c79d83bd01bc3787e02db1 204730 net optional kamailio-postgres-modules_5.7.0~dev2_arm64.deb
+ ac425fdb4a1fc3d03034046df30af141 823204 net optional kamailio-presence-modules_5.7.0~dev2_arm64.deb
+ 6b5ce9df17e067fb911882743d057a97 166988 net optional kamailio-python3-modules_5.7.0~dev2_arm64.deb
+ 08cb828ddb81b6e23c418fcb4bfcb2b0 131208 net optional kamailio-rabbitmq-modules_5.7.0~dev2_arm64.deb
+ f03fd60bfc6aabca112daeffe3d56b59 186544 net optional kamailio-radius-modules_5.7.0~dev2_arm64.deb
+ 0130648eca9418b3685c1a5fb255983f 319120 net optional kamailio-redis-modules_5.7.0~dev2_arm64.deb
+ ae7407c0fc49044f3092b5b1bfd6890e 172042 net optional kamailio-ruby-modules_5.7.0~dev2_arm64.deb
+ df5c13533587a6ded158d103ec9da3d5 157924 net optional kamailio-sctp-modules_5.7.0~dev2_arm64.deb
+ e891c21bcd4449f7eaf099a92d5638aa 131234 net optional kamailio-secsipid-modules_5.7.0~dev2_arm64.deb
+ e83a419297a762c6251bfbadabf93de7 195496 net optional kamailio-snmpstats-modules_5.7.0~dev2_arm64.deb
+ 74f7fc92d014360aac713be3b5c1e451 136990 net optional kamailio-sqlite-modules_5.7.0~dev2_arm64.deb
+ a20e685e2bb2d86adcbd59f509a4e0bb 120940 net optional kamailio-systemd-modules_5.7.0~dev2_arm64.deb
+ b99cb79efbb338b75bd31a82248ea021 319192 net optional kamailio-tls-modules_5.7.0~dev2_arm64.deb
+ 34d6f03a269bd1a727d83903875cd3dd 145740 net optional kamailio-unixodbc-modules_5.7.0~dev2_arm64.deb
+ 3081921b3e8de9de9a1e4683b6ade84e 295490 net optional kamailio-utils-modules_5.7.0~dev2_arm64.deb
+ 4de2e27147a1c524fdc70592e44d8dff 166250 net optional kamailio-websocket-modules_5.7.0~dev2_arm64.deb
+ c959830158ea58f04724c88e34a35d54 249234 net optional kamailio-xml-modules_5.7.0~dev2_arm64.deb
+ 35279e6b2dbe652dacd3692527497cee 161146 net optional kamailio-xmpp-modules_5.7.0~dev2_arm64.deb
+ 2e7a392d4182245de8b37a55d148a41e 27397 net optional kamailio_5.7.0~dev2_arm64.buildinfo
+ 4299922198d8dfbe8490417eaca06217 7328368 net optional kamailio_5.7.0~dev2_arm64.deb
